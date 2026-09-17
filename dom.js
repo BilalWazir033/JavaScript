@@ -49,9 +49,6 @@ guessForm.addEventListener("submit" , function(event){
 
 })
 
-git add .
-git commit -m " dom implemented"
-git push origin main
 
 resetBtn.addEventListener("click" , function(){
 

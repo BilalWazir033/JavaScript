@@ -10,4 +10,4 @@ colors.forEach(function(color) {
         document.body.style.backgroundColor = selectedColor;
     });
 
-});
+}); 

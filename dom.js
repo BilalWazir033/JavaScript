@@ -49,7 +49,9 @@ guessForm.addEventListener("submit" , function(event){
 
 })
 
-
+git add .
+git commit -m "Added event listener for reset button to restart the game and reset attempts and messages."
+git push origin main
 
 resetBtn.addEventListener("click" , function(){
 

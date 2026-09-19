@@ -54,8 +54,7 @@ searchBtn.addEventListener("click", () => {
 
 
 
-//  added images for weather icons, added error handling for wrong city name
 
 git add .
-git commit -m "added final modifications, checked the weather app correctly working, and committed the changes."
+git commit -m "added images for weather icons and committed the changes."
 git push -u origin main

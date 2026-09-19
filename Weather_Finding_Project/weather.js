@@ -15,5 +15,5 @@ async function checkWeather(){
 
 
 git add .
-git commit -m "added weather.js file"
+git commit -m "creating a weather finding project using openweathermap api and html,css and javascript. App work by using city name and it will show the weather of that city."
 git push -u origin main

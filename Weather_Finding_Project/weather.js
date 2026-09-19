@@ -47,5 +47,5 @@ searchBtn.addEventListener("click",()=>{
 
 
 git add .
-git commit -m "Added weather.js file for fetching and displaying weather data based on user input."
+git commit -m "added an error handling feature to the weather app"
 git push -u origin main

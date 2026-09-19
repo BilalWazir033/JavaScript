@@ -55,6 +55,3 @@ searchBtn.addEventListener("click", () => {
 
 
 
-git add .
-git commit -m "added images for weather icons and committed the changes."
-git push -u origin main

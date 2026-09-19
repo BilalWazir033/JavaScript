@@ -4,18 +4,21 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background-color: #a8f3ff;
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    box-sizing: border-box;
 }
-.card{
+.card {
     width: 90%;
     max-width: 470px;
-    margin: 100px auto;
     padding: 40px 35px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
     border-radius: 20px;
-    margin: 100px auto 0;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
@@ -54,4 +57,22 @@ body{
 .weather{
     display: none;
 }
+.error{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    display: none;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
 

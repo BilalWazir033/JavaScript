@@ -20,6 +20,54 @@ console.log(`Hello ${name3} you are ${age1} years old`); // template literals
 let city="peshawar";
 city="islamabad"; // we can reassign the value of a variable declared with let
 
-// git add .
-// git commit -m "ES6 in JS, differences in old and modern JS, template literals, let and const"
-// git push origin main
+
+
+// 3. Arrow functions 
+//  old way 
+var sum=function(a,b){
+    return a+b;
+}
+console.log(sum(2,3));
+
+// modern way
+const sum1=(a,b)=>{
+    return a+b;
+}
+console.log(sum1(2,3));
+
+// 4. Template literals 
+// old 
+var name4="Bilal";
+var age3=20;
+console.log("Hello "+name4+" you are "+age3+" years old");
+
+// modern 
+let name5="Bilal";
+let age4=20;
+console.log(`Hello ${name5} you are ${age4} years old`); // template literals
+
+// 5. Destructuring
+
+// This is one of the very useful ES6 features.
+// old way 
+const student={
+    name6: "Bilal",
+    age5: 22,
+    university: "UET Peshawar"
+};
+
+const nam=student.name6;
+const ag=student.age5
+const uni=student.university
+console.log(`hello ${nam} are you ${ag} years old and are you from ${uni}?`);
+
+// modern 
+const { name6, age5, university } = student;
+
+console.log(name6);
+console.log(age5);
+console.log(university);
+
+git add .
+git commit -m "template literals and destructuring"
+git push origin main

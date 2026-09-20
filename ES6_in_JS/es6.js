@@ -68,6 +68,15 @@ console.log(name6);
 console.log(age5);
 console.log(university);
 
-git add .
-git commit -m "template literals and destructuring"
-git push origin main
+const colors = ["red", "green", "blue"];
+
+const [first, second, third] = colors;
+
+console.log(first);   // red
+console.log(second);  // green
+
+// git add .
+// git commit -m "template literals and destructuring"
+// git push origin main
+
+// 7. Default parameters

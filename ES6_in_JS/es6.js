@@ -75,8 +75,61 @@ const [first, second, third] = colors;
 console.log(first);   // red
 console.log(second);  // green
 
-// git add .
-// git commit -m "template literals and destructuring"
-// git push origin main
 
-// 7. Default parameters
+
+// 6. Spread operator ... The spread operator is used to expand/unpack the 
+// elements of an array or properties of an object.
+
+// old way
+const numbers1=[1, 2, 3];
+const numbers2=[4, 5, 6];
+
+const allNumbers=numbers1.concat(numbers2);
+console.log(allNumbers); // [1, 2, 3, 4, 5, 6]
+
+// modern way
+const allNumbers1=[...numbers1, ...numbers2];
+console.log(allNumbers1); // [1, 2, 3, 4, 5, 6]
+// we'll use this a lot in modern JavaScript, especially React.
+
+const student1 = {
+    name: "Bilal",
+    age: 22
+};
+const student2 = { ...student1 };
+
+console.log(student2);
+
+const student3 = {
+    ...student1,
+    university: "UET Peshawar"
+};
+
+console.log(student3);
+
+// So spread is commonly used for:
+// combining arrays
+// copying arrays
+// adding elements to arrays
+// copying objects
+// combining objects
+// adding/updating object properties
+
+// 3. Rest Operator ...
+
+// Now the same ... has a different job.
+
+// Rest collects multiple values into one array.
+
+function sum3(...numbers6) {
+    console.log(numbers6); // [1, 2, 3, 4, 5]
+}
+sum3(1, 2, 3, 4, 5);
+
+// rest is useful then spread operator because it allows us to pass
+//  an indefinite number of arguments to a function.
+
+git add .
+git commit -m "spread and rest operators in detail and useful examples of them"
+git push origin main
+
